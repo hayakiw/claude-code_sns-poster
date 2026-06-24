@@ -1,0 +1,41 @@
+{
+  "_README": "このファイルがゴールの単一ソース。account / voice / kpi / policy を自分の運用に合わせて編集してください。",
+  "account": {
+    "handle": "@your_handle",
+    "topic": "（例）個人開発者向けの AI 活用Tips",
+    "audience": "AIツールで開発効率を上げたいエンジニア"
+  },
+  "voice": {
+    "tone": "実践的・等身大・少しユーモア",
+    "person": "一人称は『自分』",
+    "emoji": "控えめに1〜2個まで",
+    "ng": ["誇大表現", "未確認情報の断定", "政治・宗教・他者批判"]
+  },
+  "kpi": {
+    "north_star": "engagement_rate",
+    "engagement_rate_target": 0.04,
+    "baseline_window_days": 14,
+    "sub": ["impressions", "follow_conversion", "follower_growth"]
+  },
+  "policy": {
+    "posts_per_day": 2,
+    "min_interval_hours": 4,
+    "dedup_similarity_max": 0.6
+  },
+  "notify": {
+    "slack_channel": "#sns-approvals",
+    "no_response": "HOLD"
+  },
+  "thumbnail": {
+    "enabled": true,
+    "generator": "openai-image-edit",
+    "model": "gpt-image-2",
+    "size": "1280x720",
+    "style": "赤×黒グランジの煽り系YouTubeサムネ。背景は赤と黒のかすれ・ザラつきテクスチャと放射状の集中線。左2/3に超巨大な多段タイトル文字（白／赤／黄を段ごとに使い分け、全て白の極太フチ＋黒のかすれが乗る力強い文字）。白い爆発型フキダシに短い煽りサブコピー（赤強調）。右1/3に参照画像のマスコット。高彩度・高コントラスト・迫力重視で一目で読める。",
+    "character": "白い子犬のマスコット。赤いYouTube風パーカーとキャップ、赤いヘッドホン、元気で可愛い表情。",
+    "character_image": "docs/character.png",
+    "subcopy": true,
+    "brand": { "bg": "#0b0b0b", "primary": "#e01010", "accent": "#ffd400", "text": "#ffffff", "outline": "#ffffff" },
+    "show_handle": false
+  }
+}

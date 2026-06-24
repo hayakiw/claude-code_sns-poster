@@ -1,1 +1,6 @@
-.DS_Store
+# 秘密情報（実 API キー）はコミットしない
+.env
+.env.local
+
+# Claude Code の実行時ロック（マシン/プロセス固有・自動生成）
+.claude/scheduled_tasks.lock
