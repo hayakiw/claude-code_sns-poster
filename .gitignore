@@ -4,3 +4,7 @@
 
 # Claude Code の実行時ロック（マシン/プロセス固有・自動生成）
 .claude/scheduled_tasks.lock
+
+# サイクルの生成物・進捗ログ（実行ごとに増える・リポジトリには載せない）
+workflow/runs/
+workflow/progress/
